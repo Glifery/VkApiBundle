@@ -1,0 +1,27 @@
+{
+    "name" : "glifery/vk-api-bundle",
+    "description" : "Simple service for VK.com API",
+    "type" : "symfony-bundle",
+    "authors" : [{
+        "name" : "Glifery",
+        "email" : "glifery@gmail.com"
+    }],
+    "keywords" : [
+        "vk api"
+    ],
+    "license" : [
+        "MIT"
+    ],
+    "require" : {
+        "php": ">=5.3.0",
+        "symfony/framework-bundle": ">=2.3"
+    },
+    "autoload" : {
+        "psr-0" : {
+            "Glifery\\VkApiBundle" : ""
+        }
+    },
+    "target-dir" : "Glifery/VkApiBundle",
+    "repositories" : [{
+    }]
+}
